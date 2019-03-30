@@ -9,3 +9,4 @@ target_include_directories(
     helloA PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
     $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>)
+set_target_properties(helloA PROPERTIES OUTPUT_NAME "better_name")

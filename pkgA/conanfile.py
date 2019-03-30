@@ -34,4 +34,4 @@ class PkgaConan(ConanFile):
         self.copy("*.a", dst="lib", keep_path=False)
 
     def package_info(self):
-        self.cpp_info.libs = ["pkgA"]
+        self.cpp_info.libs = ["better_name"]
