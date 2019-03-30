@@ -1,0 +1,10 @@
+editables:
+    pkgB/version@user/channel:
+        path: ../pkgB
+    pkgA/version@user/channel:
+        path: ../pkgA
+        alias_target: helloA
+layout: layout_cmake
+workspace_generator: cmake
+root: pkgB/version@user/channel
+
