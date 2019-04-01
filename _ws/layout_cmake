@@ -1,6 +1,2 @@
 [source_folder]
 src
-
-[build_folder]
-/Users/jgsogo/dev/conan/issues/ws_not_editable/_ws/build_pkgs/{{ reference.name }}
-
