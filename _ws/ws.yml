@@ -3,8 +3,8 @@ editables:
         path: ../pkgB
     pkgA/version@user/channel:
         path: ../pkgA
-        alias_target: helloA
 layout: layout_cmake
 workspace_generator: cmake
+generators: cmake_multi
 root: pkgB/version@user/channel
 
